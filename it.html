@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en-AU" >
+  <head>
+    <!-- Throughout this entire project, code has been used (and altered) in various ways from this source and it's subsites: W3Schools 2022, 'HTML Tutorial', 'W3Schools', Viewed various times from the 3rd of March to the 27th of March, <https://www.w3schools.com/html/default.asp> -->
+    <!-- Please note that this was due to my limited knowledge of the HTML programming language up to this point, if you have any concerns, queries or other matters, please don't hesitate contacting me via the various contact measures included on this site. Thank you. -->
+    <!-- Following Viewport Meta sourced from: W3Schools 2022, 'Responsive Web Design Viewport', 'W3Schools', viewed 24 March 2022, <https://www.w3schools.com/css/css_rwd_viewport.asp> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Dominic Hutchinson">
+    <meta name="description" content="A detailed online profile website on 1st year Bachelor of IT student, Dominic Hutchinson, studying at RMIT Melbourne.">
+    <title>Dom's E-Profile | IT</title>
+    <meta charset="utf-8">
+
+    <style>
+
+.rectangleHead {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 100px;
+  width: 1550px;
+  background-color: Black;
+  opacity: 0.2;
+}
+
+.rectangleBottom {
+  position: absolute;
+  left: 0px;
+  bottom: -400px;
+  height: 150px;
+  width: 1550px;
+  background-color: Black;
+}
+
+.rectangleContent {
+  position: absolute;
+  left: 260px;
+  top: 150px;
+  height: 1000px;
+  width: 1000px;
+  background-color: DarkBlue;
+  opacity: 0.1;
+}
+
+a:link, a:visited {
+  position: absolute;
+  color: White;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 25px;
+  font-family: sans-serif;
+}
+
+a:hover, a:active {
+  color: DarkBlue;
+}
+
+</style>
+
+  </head>
+  <!-- Rectangle Code (Lines 15-42) sourced from: W3Schools 2022, 'How To Create Different Shapes with CSS', 'W3Schools', viewed 24 March 2022, <https://www.w3schools.com/html/html_links_colors.asp> -->
+  <!-- Custom Link Code (Lines 44-55 ) sourced from: W3Schools 2022, 'HTML Link Colors', 'W3Schools', viewed 24 March 2022, <https://www.w3schools.com/html/html_links_colors.asp> -->
+
+<!--Creating Background-->
+<!-- Following Background CSS Code sourced from: ColorSpace 2022, 'CSS Gradient Color Generator', 'Rikku', viewed 23 March 2022, <https://mycolor.space/gradient> -->
+  <body style="background-image: radial-gradient(circle, #5b9cff, #5c92ef, #5c88df, #5b7ecf, #5974c0);">
+
+<!--Creating Header For Page, with navigational links-->
+    <section>
+      <!-- Anchor Code sourced from: Colorado State University, 'HTML Linking Basics - Engineering Technology Services', Walter Scott, JR. , viewed 24 March 2022, <https://www.engr.colostate.edu/ets/html-linking-basics/> -->
+      <a name="top" id="top"></a>
+    <div class="rectangleHead"></div>
+    <h1 style="font-size: 30px; color: #50ffff; position: absolute; top: -15px; left: 40px; font-family: fantasy;">Dominic Hutchinson</h1>
+  <a href="index.html" target="_top" style="top: 30px; left: 980px; height: 20px; width: 100px;">Home</a>
+  <a href="about.html" target="_top" style="top: 30px; left: 1080px; height: 20px; width: 100px;">About Me</a>
+  <a href="it.html" target="_top" style="top: 30px; left: 1180px; height: 20px; width: 100px;">Why IT?</a>
+  <a href="job.html" target="_top" style="top: 30px; left: 1280px; height: 20px; width: 100px;">Ideal Job</a>
+  <a href="#bottom" target="_top" style="top: 30px; left: 1380px; height: 20px; width: 100px;">Contact</a>
+  </section>
+
+<!--Creating Content for the page-->
+  <section>
+    <h2 style="color: #60ffff; position: absolute; top: 150px; left: 635px; text-align: center; font-family: fantasy;">So... Why IT?</h2>
+    <p style="color: White; position: absolute; top: 400px; left: 265px; font-family: serif; font-size: 18px; text-align: left;">
+      Technology has been always been quite a major part of my life, solving even the littlest of problems and innovating new ways of thinking <br> and connecting with people. From the original Ipad, I always wondered what limits (if there even were any) could be broken with IT, and <br> these days, advancing new technologies have far surpassed even our wildest imagination with the amount of connection and solutions it <br> generates. This curiosity towards technology I have had since I was a child, as I felt, and still feel to this day, that I understood computers <br> more than I did people, I found them more relatable and comprehendable, and thus I experimented with apps and games whenever I had a <br> chance. At the start of high school I got my first computer, a Mac, and always spent bits of time experimenting with apps and writing code <br> to keep my brain entertained. As I grew older, there was less time for playing around, but still carried a love for technology, and thus, I <br> persued many tech-based classes in VCE, where I learnt about many aspects of Data Analytics and Computing. I found that programming <br> in Computing was a enjoyment to me, so I saught out universities which could offer me the opportunity to learn how to properly program <br> in a business setting, and teach valuable skills for later on in a career/life itself. In regard of what I wish to pursue, I am still coming to <br> terms of exactly the field I want to follow, although I hope to go down a path where I may be able to help people who need technological <br> solutions and also be able to help tell stories through a technological medium, like through a game, to perhaps encourage a different way <br> of thinking.
+    </p>
+    <h3 style="color: #20ffff; position: absolute; top: 330px; left: 705px; text-align: center; font-family: serif;"> Interest in IT </h3>
+    <p style="color: White; position: absolute; top: 800px; left: 265px; font-family: serif; font-size: 18px; text-align: left;">
+      I chose to come to RMIT thanks to the flexibility and versatility that the IT course operates on, having very flexible elective options, <br> programming courses and more, with outlooks on a business side also. As well as being well recognised for it's technology courses, RMIT <br> was a excellent option for studying this particular bachelor, thanks to it's openness and flexibility, even in these strange semi-not-really-<br>normal COVID recovery times, which suited my schedule quite well. <br> In these studies, I wish to gain knowledge and experience in most of IT's fields, and see which one I'd like to specifically pursue, while <br> also diving into bigger IT concepts and how to apply them in a business for later
+    </p>
+    <h3 style="color: #20ffff; position: absolute; top: 720px; left: 670px; text-align: center; font-family: serif;"> Why Study at RMIT? </h3>
+    <div class="rectangleContent"</div>
+  </section>
+
+<!--Have to seperate link in order for it to be visible and interactible; easy flow between reading.-->
+<a href="#top" target="_top" style="top: 980px; left: 690px; font-family: serif; font-size:18px; text-decoration:underline;">Back to top</a>
+<a href="job.html" target="_top" style="top: 913px; left: 824px; font-family: serif; font-size:18px;"> Employment Opportunities.
+
+<!--Creating Footer For Page, with contact details-->
+  <section>
+    <a name="bottom" id="bottom"></a>
+  <div class="rectangleBottom"></div>
+  <h3 style="color:White; position: absolute; bottom: -300px; left: 693px; text-align: center; font-family: Georgia;">Contact Details: </h>
+  <h4 style="color:White; position: absolute; bottom: -360px; left: 90px; text-align: center; font-family: serif; font-style:italic;">RMIT Student ID: S3943438</h>
+  <h4 style="color:White; position: absolute; bottom: -360px; left: 360px; text-align: center; font-family: serif; font-style:italic;">Phone: 0422549119</h>
+  <h4 style="color:White; position: absolute; bottom: -360px; left: 575px; text-align: center; font-family: serif; font-style:italic;">Email:</h>
+  <a href="mailto:S3943438@student.rmit.edu.au" target="_blank" style="position: absolute; bottom: -15px; left: 26px; font-family: serif; font-style:italic; color: White;">S3943438@student.rmit.edu.au</a>
+  <h4 style="color:White; position: absolute; bottom: -360px; left: 915px; text-align: center; font-family: serif; font-style:italic;">GitHub Repo:</h>
+  <a href="https://github.com/domHutchinson" target="_blank" style="position: absolute; bottom: -15px; left: 70px; font-family: serif; font-style:italic; color: White;">https://github.com/domHutchinson</a>
+  <a href="https://www.linkedin.com/in/dominic-hutchinson-04768a233/" target="_blank" style="position: absolute; bottom: -15px; left: 385px; font-family: serif; font-style:italic; color: White; display: inline-block; white-space: nowrap">Linkedin Page</a>
+  <emp style="color:White; position: absolute; bottom: -50px; right: -500px; text-align: center; font-family: monospace; display: inline-block; white-space: nowrap; font-size: 10px">Designed By: Dominic Hutchinson, 2022</emp>
+  </section>
+</section>
+  </body>
+
+</html>
